@@ -2,7 +2,7 @@
 This is a simple to-do application built with React and Firebase. It allows users to create, read, update, and delete to-do items, and stores the data in a Firebase Firestore database. The application uses Firebase's built-in methods for interacting with the database
 
 <details>
-<summary>Spanish Description<img src="https://ae01.alicdn.com/kf/Ub383ce3593fb488ebb97c3a2c4432fb7J.png" width="20"></summary>
+<summary>Spanish Description <img src="https://ae01.alicdn.com/kf/Ub383ce3593fb488ebb97c3a2c4432fb7J.png" width="20"></summary>
 <br>
 Esta es una aplicación simple de tareas creada con React y Firebase. Permite a los usuarios crear, leer, actualizar y eliminar tareas, y almacena los datos en una base de datos Firebase Firestore. La aplicación utiliza los métodos incorporados de Firebase para interactuar con la base de datos
 </details>
