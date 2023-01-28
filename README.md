@@ -1,5 +1,11 @@
 ### 📌 About
-The technologies used in this project are React, Tailwind and Node.js.
+This is a simple to-do application built with React and Firebase. It allows users to create, read, update, and delete to-do items, and stores the data in a Firebase Firestore database. The application uses Firebase's built-in methods for interacting with the database
+
+<details open>
+<summary>Spanish</summary>
+<br>
+Esta es una aplicación simple de tareas creada con React y Firebase. Permite a los usuarios crear, leer, actualizar y eliminar tareas, y almacena los datos en una base de datos Firebase Firestore. La aplicación utiliza los métodos incorporados de Firebase para interactuar con la base de datos
+</details>
 
 [Live Preview](https://to-do-app-ibi.netlify.app/) 
 
