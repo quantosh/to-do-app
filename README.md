@@ -27,8 +27,8 @@ I will update this project, since I made some changes.
 - [ ]  Create
 - [ ]  Date
 
-####  User Panel
+#### 🍨 User Panel
 - [x]  Mockup
 
-####  Daily Panel
+#### 🌈 Daily Panel
 - [x]  Mockup
