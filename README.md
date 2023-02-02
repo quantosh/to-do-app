@@ -8,6 +8,7 @@ Esta es una aplicación simple de tareas creada con React y Firebase. Permite a 
 </details>
 
 [Live Preview](https://to-do-app-ibi.netlify.app/) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9497d942-67bc-4e6d-99fb-8ef04fabfa09/deploy-status)](https://app.netlify.com/sites/to-do-app-ibi/deploys)
 
 #### 👩‍💻 Technologies I'm using in this project
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
