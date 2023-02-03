@@ -24,9 +24,9 @@ I will update this project, since I made some changes.
 
 #### 💡 To do component
 - [x]  Read
-- [ ]  Update
-- [ ]  Delete
-- [ ]  Create
+- [x]  Update
+- [x]  Delete
+- [x]  Create
 - [ ]  Date
 
 #### 🍨 User Panel
