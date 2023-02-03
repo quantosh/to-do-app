@@ -14,8 +14,8 @@ function App () {
         {/* This is /login route */}
         <Loginscreen />
       </div>
-      {/* Settings bubble? */}
       <div>
+        {/* Settings bubble? */}
         <Palette />
       </div>
     </div>
