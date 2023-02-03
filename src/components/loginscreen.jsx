@@ -1,18 +1,22 @@
-const style = {
-  bg: 'flex items-center justify-center h-screen w-screen bg-gray-100',
-  container: ''
-}
+import GoogleButton from 'react-google-button'
 
 function Loginscreen () {
   return (
-    <div className={style.bg}>
-      <div className={style.container}>
+    <div className='flex items-center justify-center h-screen w-screen bg-gray-100'>
+      <div className=''>
         <div className='bg-white shadow-md p-4 center rounded'>
           <div>
             <form class=''>
               <div className='mb-3 text-center'>
                 Task Manager
               </div>
+              <div class='mb-4'>
+                <GoogleButton
+                  className=''
+                  onClick={() => { console.log('Google button clicked') }}
+                />
+              </div>
+
               <div class='mb-4'>
                 <input class='text-sm shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' id='username' type='text' placeholder='Username' />
               </div>

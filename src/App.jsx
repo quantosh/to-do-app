@@ -1,22 +1,22 @@
 
 import Controller from './components/controller'
-import Topbar from './components/topbar'
 import Loginscreen from './components/loginscreen'
-
-const style = {
-  bg: 'h-screen w-screen p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500',
-  panels: 'flex justify-start'
-}
+import Palette from './components/palette'
 
 function App () {
   return (
     <div>
-      <div className={style.bg}>
-        <Topbar />
+      <div className='flex items-center justify-center h-screen w-screen bg-lime-200'>
+        {/* This is /main route */}
         <Controller />
       </div>
       <div>
+        {/* This is /login route */}
         <Loginscreen />
+      </div>
+      {/* Settings bubble? */}
+      <div>
+        <Palette />
       </div>
     </div>
   )
