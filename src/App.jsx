@@ -1,5 +1,6 @@
 
 import Controller from './components/controller'
+import Topbar from './components/topbar'
 import Loginscreen from './components/loginscreen'
 
 const style = {
@@ -9,13 +10,13 @@ const style = {
 
 function App () {
   return (
-
-    <div className={style.bg}>
+    <div>
+      <div className={style.bg}>
+        <Topbar />
+        <Controller />
+      </div>
       <div>
-        <div>
-          <Loginscreen />
-          <Controller />
-        </div>
+        <Loginscreen />
       </div>
     </div>
   )

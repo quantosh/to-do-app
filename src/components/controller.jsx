@@ -16,8 +16,8 @@ const style = {
   container: 'bg-slate-100 max-w-[400px] w-full m-auto rounded-md shadow-xl',
   heading: 'text-2xl font-bold text-center text-gray-800 mt-2 mb-2',
   form: 'flex justify-between mb-2 mt-2 ml-4 mr-4',
-  input: 'border p-1 w-full text-sm rounded-md mt-4 mb-4',
-  button: 'border p-2 bg-black text-slate-100 rounded-md ml-2 mt-4',
+  input: 'border w-full text-sm p-2 mt-4 mb-1',
+  button: 'border bg-black text-white rounded-md p-2 mt-4 mb-1 ml-1',
   count: 'text-center p-2 text-xs'
 }
 
@@ -76,7 +76,7 @@ function Controller () {
             placeholder='Add Task'
           />
           <button className={style.button}>
-            <AiOutlinePlus size={30} />
+            <AiOutlinePlus size={15} />
           </button>
         </form>
         <ul>
