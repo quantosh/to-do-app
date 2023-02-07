@@ -1,24 +1,20 @@
+import { Routes, Route } from 'react-router-dom'
 import Controller from './components/controller'
-import Loginscreen from './components/loginscreen'
-import Todo from './components/todo'
-
-const style = {
-  bg: 'h-screen w-screen p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500',
-  panels: 'flex justify-start'
-}
+import Home from './pages/Home'
+import Loginscreen from './pages/LoginScreen'
+import { AppProvider } from './Context/AppProvider'
 
 function App () {
   return (
-
-    <div className={style.bg}>
-      <div>
-        <h1>el pepe</h1>
-        <div>
-          <Loginscreen />
-          <Controller />
-          <Todo />
-        </div>
-      </div>
+    <div className='p-10 w-screen h-screen bg-[url("https://grepitout.com/wp-content/uploads/2017/10/Mountain.jpg")] bg-cover'>
+      <AppProvider>
+        <Routes>
+          <Route path='/' element={<Loginscreen />} />
+          <Route element={<Home />}>
+            <Route path='/Home' element={<Controller />} />
+          </Route>
+        </Routes>
+      </AppProvider>
     </div>
   )
 }

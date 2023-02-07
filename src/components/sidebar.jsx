@@ -2,30 +2,19 @@
 import React from 'react'
 
 const style = {
-  sidebar: 'text-sm rounded-md p-2 mt-2 mr-2 ml-2 bg-slate-200 shadow-xl max-w-[200px] w-full',
-  li: 'flex text-sm justify-between rounded-md p-2 mb-2 mt-2 ml-4 mr-4 bg-slate-200',
-  liComplete: 'flex text-sm justify-between rounded-md p-2 mb-2 mt-2 ml-4 mr-4 bg-red-300',
+  sidebar: 'text-sm max-w-[200px] mt-12 p-4',
   row: 'flex',
   text: 'ml-4 cursor-pointer',
-  textComplete: 'ml-4 cursor-pointer line-through',
   button: 'cursor-pointer flex items-center'
 }
 
 const Sidebar = () => {
   return (
     <div className={style.sidebar}>
-      <div className='flex'>
-        <div>
-          <img className='ml-2 rounded-full w-11 h-11' src='https://api.dicebear.com/5.x/initials/svg?seed=Abby' alt='avatar' />
-        </div>
-        <div className='ml-3 text-xs'>
-          <p>John Doe</p>
-          <p>user@johndoe.net</p>
-        </div>
-      </div>
-      <form className='justify-between'>
-        <input className='rounded w-full bg-slate-300 p-1 ml-1 mt-3 text-slate-700 placeholder-slate-700' type='text' placeholder='🔍 Search' />
-      </form>
+      <a href='' class='flex items-center mb-8 justify-center'>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android_O_Preview_Logo.png/1024px-Android_O_Preview_Logo.png' class='h-6 mr-3 sm:h-9' alt='Flowbite Logo' />
+        <span class='self-center text-l font-semibold whitespace-nowrap'>To Do App</span>
+      </a>
       <div className='block text-xs p-1 ml-1 '>
         <p className='text-left mb-1 mt-1'>📓 My day</p>
         <p className='text-left mb-1 mt-1'>⭐ Important</p>
